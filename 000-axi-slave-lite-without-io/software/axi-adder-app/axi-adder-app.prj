@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="axi-adder-app" location="/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app" platform="/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/axi_adder_platform.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" systemProject="axi-adder-app_system" sysConfig="axi_adder_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="d5f117f2f5816159a0f861af75da96df">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1128793666">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.518102541" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
