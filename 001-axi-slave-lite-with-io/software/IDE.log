@@ -1,0 +1,519 @@
+20:25:57 DEBUG : Logs will be stored at '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/IDE.log'.
+20:26:00 INFO  : Launching XSCT server: xsct -n  -interactive /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/temp_xsdb_launch_script.tcl
+20:26:00 INFO  : Registering command handlers for Vitis TCF services
+20:26:01 INFO  : Platform repository initialization has completed.
+20:26:02 INFO  : XSCT server has started successfully.
+20:26:02 INFO  : plnx-install-location is set to ''
+20:26:02 INFO  : Successfully done setting XSCT server connection channel  
+20:26:02 INFO  : Successfully done query RDI_DATADIR 
+20:26:02 INFO  : Successfully done setting workspace for the tool. 
+20:27:13 INFO  : Result from executing command 'getProjects': axi_slave_lite_with_io_platform
+20:27:13 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+20:27:40 INFO  : Result from executing command 'getProjects': axi_slave_lite_with_io_platform
+20:27:40 INFO  : Result from executing command 'getPlatforms': axi_slave_lite_with_io_platform|/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/axi_slave_lite_with_io_platform.xpfm;xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+20:29:12 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+20:32:42 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+20:33:37 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+20:33:48 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+20:34:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:34:06 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+20:34:06 INFO  : 'jtag frequency' command is executed.
+20:34:06 INFO  : Context for 'APU' is selected.
+20:34:06 INFO  : System reset is completed.
+20:34:09 INFO  : 'after 3000' command is executed.
+20:34:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+20:34:11 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit"
+20:34:11 INFO  : Context for 'APU' is selected.
+20:34:11 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa'.
+20:34:11 INFO  : 'configparams force-mem-access 1' command is executed.
+20:34:11 INFO  : Context for 'APU' is selected.
+20:34:11 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl' is done.
+20:34:11 INFO  : 'ps7_init' command is executed.
+20:34:11 INFO  : 'ps7_post_config' command is executed.
+20:34:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:34:11 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:34:11 INFO  : 'configparams force-mem-access 0' command is executed.
+20:34:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:34:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:34:11 INFO  : 'con' command is executed.
+20:34:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:34:11 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app_system/_ide/scripts/systemdebugger_axi_slave_lite_with_io_app_system_standalone.tcl'
+20:34:34 INFO  : Disconnected from the channel tcfchan#6.
+20:34:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:34:34 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+20:34:34 INFO  : 'jtag frequency' command is executed.
+20:34:34 INFO  : Context for 'APU' is selected.
+20:34:34 INFO  : System reset is completed.
+20:34:37 INFO  : 'after 3000' command is executed.
+20:34:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+20:34:39 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit"
+20:34:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:34:39 INFO  : Context for 'APU' is selected.
+20:34:39 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa'.
+20:34:39 INFO  : 'configparams force-mem-access 1' command is executed.
+20:34:39 INFO  : Context for 'APU' is selected.
+20:34:39 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl' is done.
+20:34:39 INFO  : 'ps7_init' command is executed.
+20:34:39 INFO  : 'ps7_post_config' command is executed.
+20:34:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:34:39 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:34:39 INFO  : 'configparams force-mem-access 0' command is executed.
+20:34:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:34:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:34:39 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+20:34:39 INFO  : 'con' command is executed.
+20:34:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:34:39 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app_system/_ide/scripts/systemdebugger_axi_slave_lite_with_io_app_system_standalone.tcl'
+20:34:39 INFO  : 'jtag frequency' command is executed.
+20:34:39 INFO  : Context for 'APU' is selected.
+20:34:39 INFO  : System reset is completed.
+20:34:42 INFO  : 'after 3000' command is executed.
+20:34:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+20:34:44 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit"
+20:34:44 INFO  : Context for 'APU' is selected.
+20:34:44 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa'.
+20:34:44 INFO  : 'configparams force-mem-access 1' command is executed.
+20:34:44 INFO  : Context for 'APU' is selected.
+20:34:44 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl' is done.
+20:34:44 INFO  : 'ps7_init' command is executed.
+20:34:44 INFO  : 'ps7_post_config' command is executed.
+20:34:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:34:44 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:34:44 INFO  : 'configparams force-mem-access 0' command is executed.
+20:34:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:34:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:34:44 INFO  : 'con' command is executed.
+20:34:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:34:44 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app_system/_ide/scripts/systemdebugger_axi_slave_lite_with_io_app_system_standalone.tcl'
+20:36:25 INFO  : Disconnected from the channel tcfchan#7.
+20:36:26 INFO  : XRT server has started successfully on port '4354'
+20:36:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:36:26 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+20:36:26 INFO  : 'jtag frequency' command is executed.
+20:36:26 INFO  : Context for 'APU' is selected.
+20:36:26 INFO  : System reset is completed.
+20:36:29 INFO  : 'after 3000' command is executed.
+20:36:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+20:36:30 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit"
+20:36:30 INFO  : Context for 'APU' is selected.
+20:36:30 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa'.
+20:36:30 INFO  : 'configparams force-mem-access 1' command is executed.
+20:36:30 INFO  : Context for 'APU' is selected.
+20:36:30 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl' is done.
+20:36:31 INFO  : 'ps7_init' command is executed.
+20:36:31 INFO  : 'ps7_post_config' command is executed.
+20:36:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:36:31 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:36:31 INFO  : 'configparams force-mem-access 0' command is executed.
+20:36:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:36:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:36:31 INFO  : 'con' command is executed.
+20:36:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:36:31 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app_system/_ide/scripts/systemdebugger_axi_slave_lite_with_io_app_system_standalone.tcl'
+20:37:43 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+20:37:53 INFO  : Disconnected from the channel tcfchan#8.
+20:37:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:37:53 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+20:37:53 INFO  : 'jtag frequency' command is executed.
+20:37:53 INFO  : Context for 'APU' is selected.
+20:37:53 INFO  : System reset is completed.
+20:37:56 INFO  : 'after 3000' command is executed.
+20:37:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+20:37:57 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit"
+20:37:57 INFO  : Context for 'APU' is selected.
+20:37:57 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa'.
+20:37:57 INFO  : 'configparams force-mem-access 1' command is executed.
+20:37:57 INFO  : Context for 'APU' is selected.
+20:37:57 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl' is done.
+20:37:58 INFO  : 'ps7_init' command is executed.
+20:37:58 INFO  : 'ps7_post_config' command is executed.
+20:37:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:37:58 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:37:58 INFO  : 'configparams force-mem-access 0' command is executed.
+20:37:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:37:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:37:58 INFO  : 'con' command is executed.
+20:37:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:37:58 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app_system/_ide/scripts/systemdebugger_axi_slave_lite_with_io_app_system_standalone.tcl'
+20:40:11 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+20:40:55 INFO  : Disconnected from the channel tcfchan#10.
+20:40:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:40:55 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+20:40:55 INFO  : 'jtag frequency' command is executed.
+20:40:55 INFO  : Context for 'APU' is selected.
+20:40:55 INFO  : System reset is completed.
+20:40:56 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+20:40:58 INFO  : 'after 3000' command is executed.
+20:40:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+20:40:59 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit"
+20:41:00 INFO  : Context for 'APU' is selected.
+20:41:00 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa'.
+20:41:00 INFO  : 'configparams force-mem-access 1' command is executed.
+20:41:00 INFO  : Context for 'APU' is selected.
+20:41:00 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl' is done.
+20:41:00 INFO  : 'ps7_init' command is executed.
+20:41:00 INFO  : 'ps7_post_config' command is executed.
+20:41:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:41:00 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:41:00 INFO  : 'configparams force-mem-access 0' command is executed.
+20:41:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:41:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:41:00 INFO  : 'con' command is executed.
+20:41:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:41:00 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app_system/_ide/scripts/systemdebugger_axi_slave_lite_with_io_app_system_standalone.tcl'
+21:04:12 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+21:04:24 INFO  : Disconnected from the channel tcfchan#11.
+21:04:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:04:24 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+21:04:24 INFO  : 'jtag frequency' command is executed.
+21:04:24 INFO  : Context for 'APU' is selected.
+21:04:24 INFO  : System reset is completed.
+21:04:27 INFO  : 'after 3000' command is executed.
+21:04:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+21:04:29 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit"
+21:04:29 INFO  : Context for 'APU' is selected.
+21:04:29 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa'.
+21:04:29 INFO  : 'configparams force-mem-access 1' command is executed.
+21:04:29 INFO  : Context for 'APU' is selected.
+21:04:29 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl' is done.
+21:04:29 INFO  : 'ps7_init' command is executed.
+21:04:29 INFO  : 'ps7_post_config' command is executed.
+21:04:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:04:29 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:04:29 INFO  : 'configparams force-mem-access 0' command is executed.
+21:04:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:04:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:04:29 INFO  : 'con' command is executed.
+21:04:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:04:29 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app_system/_ide/scripts/systemdebugger_axi_slave_lite_with_io_app_system_standalone.tcl'
+21:19:47 INFO  : Hardware specification for platform project 'axi_slave_lite_with_io_platform' is updated.
+21:20:57 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+21:20:57 INFO  : Launching XSCT server: xsct -n  -interactive /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/temp_xsdb_launch_script.tcl
+21:20:59 INFO  : XSCT server has started successfully.
+21:20:59 WARN  : Failed to closehw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:20:59 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:20:59 ERROR : Failed to update application flags from BSP for 'axi_slave_lite_with_io_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305) ~[com.xilinx.sdx.sw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214) ~[com.xilinx.sdx.sw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:64) ~[com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160) ~[com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78) [com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40) [com.xilinx.sdk.managedbuilder_1.0.0.202305040745.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+21:21:00 ERROR : Failed to compute checksum of hardware specification file used by project 'axi_slave_lite_with_io_app'
+21:21:00 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:21:00 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:21:00 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:21:32 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+21:21:32 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:21:32 ERROR : Failed to update application flags from BSP for 'axi_slave_lite_with_io_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305) ~[com.xilinx.sdx.sw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214) ~[com.xilinx.sdx.sw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:64) ~[com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160) ~[com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78) [com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40) [com.xilinx.sdk.managedbuilder_1.0.0.202305040745.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+21:21:32 ERROR : Failed to compute checksum of hardware specification file used by project 'axi_slave_lite_with_io_app'
+21:21:32 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:21:32 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:21:32 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:22:06 ERROR : Failed to update hardware specification for project 'axi_slave_lite_with_io_platform'.
+Reason: Failed to execute command 'platform config -updatehw {/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/design_1_wrapper.xsa}'. Click on details for more information.
+21:22:56 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+21:22:56 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:22:56 ERROR : Failed to update application flags from BSP for 'axi_slave_lite_with_io_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305) ~[com.xilinx.sdx.sw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214) ~[com.xilinx.sdx.sw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:64) ~[com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160) ~[com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78) [com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40) [com.xilinx.sdk.managedbuilder_1.0.0.202305040745.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+21:22:57 ERROR : Failed to compute checksum of hardware specification file used by project 'axi_slave_lite_with_io_app'
+21:22:57 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:22:57 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:22:57 ERROR : Failed to openhw "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa"
+Reason: Invalid workspace. set workspace using setws command
+21:23:27 INFO  : Hardware specification for platform project 'axi_slave_lite_with_io_platform' is updated.
+21:23:57 INFO  : Checking for BSP changes to sync application flags for project 'axi_slave_lite_with_io_app'...
+21:24:00 INFO  : The hardware specification used by project 'axi_slave_lite_with_io_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+21:24:00 INFO  : The file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit' stored in project is removed.
+21:24:00 INFO  : The updated bitstream files are copied from platform to folder '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream' in project 'axi_slave_lite_with_io_app'.
+21:24:00 INFO  : The file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl' stored in project is removed.
+21:24:06 INFO  : The updated ps init files are copied from platform to folder '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit' in project 'axi_slave_lite_with_io_app'.
+21:24:16 WARN  : channel "tcfchan#13" closed
+21:24:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:24:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+21:24:16 INFO  : 'jtag frequency' command is executed.
+21:24:16 INFO  : Context for 'APU' is selected.
+21:24:16 INFO  : System reset is completed.
+21:24:19 INFO  : 'after 3000' command is executed.
+21:24:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+21:24:20 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit"
+21:24:20 INFO  : Context for 'APU' is selected.
+21:24:21 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa'.
+21:24:21 INFO  : 'configparams force-mem-access 1' command is executed.
+21:24:21 INFO  : Context for 'APU' is selected.
+21:24:21 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl' is done.
+21:24:21 INFO  : 'ps7_init' command is executed.
+21:24:21 INFO  : 'ps7_post_config' command is executed.
+21:24:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:24:21 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:24:21 INFO  : 'configparams force-mem-access 0' command is executed.
+21:24:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app/Debug/axi_slave_lite_with_io_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:24:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:24:21 INFO  : 'con' command is executed.
+21:24:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:24:21 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app_system/_ide/scripts/systemdebugger_axi_slave_lite_with_io_app_system_standalone.tcl'

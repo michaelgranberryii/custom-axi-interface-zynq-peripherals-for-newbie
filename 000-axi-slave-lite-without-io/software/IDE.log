@@ -28,3 +28,236 @@
 22:15:16 INFO  : Checking for BSP changes to sync application flags for project 'axi-adder-app'...
 22:16:16 INFO  : Checking for BSP changes to sync application flags for project 'axi-adder-app'...
 22:17:17 INFO  : Checking for BSP changes to sync application flags for project 'axi-adder-app'...
+19:26:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:26:15 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+19:26:15 INFO  : 'jtag frequency' command is executed.
+19:26:15 INFO  : Context for 'APU' is selected.
+19:26:15 INFO  : System reset is completed.
+19:26:18 INFO  : 'after 3000' command is executed.
+19:26:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+19:26:20 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit"
+19:26:20 INFO  : Context for 'APU' is selected.
+19:26:20 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa'.
+19:26:20 INFO  : 'configparams force-mem-access 1' command is executed.
+19:26:20 INFO  : Context for 'APU' is selected.
+19:26:20 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl' is done.
+19:26:20 INFO  : 'ps7_init' command is executed.
+19:26:20 INFO  : 'ps7_post_config' command is executed.
+19:26:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:26:21 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:26:21 INFO  : 'configparams force-mem-access 0' command is executed.
+19:26:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:26:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:26:21 INFO  : 'con' command is executed.
+19:26:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:26:21 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app_system/_ide/scripts/systemdebugger_axi-adder-app_system_standalone.tcl'
+19:27:11 INFO  : Disconnected from the channel tcfchan#18.
+19:27:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:27:11 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+19:27:11 INFO  : 'jtag frequency' command is executed.
+19:27:11 INFO  : Context for 'APU' is selected.
+19:27:11 INFO  : System reset is completed.
+19:27:14 INFO  : 'after 3000' command is executed.
+19:27:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+19:27:15 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit"
+19:27:15 INFO  : Context for 'APU' is selected.
+19:27:15 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa'.
+19:27:15 INFO  : 'configparams force-mem-access 1' command is executed.
+19:27:15 INFO  : Context for 'APU' is selected.
+19:27:15 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl' is done.
+19:27:16 INFO  : 'ps7_init' command is executed.
+19:27:16 INFO  : 'ps7_post_config' command is executed.
+19:27:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:27:16 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:27:16 INFO  : 'configparams force-mem-access 0' command is executed.
+19:27:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:27:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:27:16 INFO  : 'con' command is executed.
+19:27:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:27:16 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app_system/_ide/scripts/systemdebugger_axi-adder-app_system_standalone.tcl'
+19:27:41 INFO  : Checking for BSP changes to sync application flags for project 'axi-adder-app'...
+19:28:01 INFO  : Disconnected from the channel tcfchan#19.
+19:28:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:28:01 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+19:28:01 INFO  : 'jtag frequency' command is executed.
+19:28:01 INFO  : Context for 'APU' is selected.
+19:28:01 INFO  : System reset is completed.
+19:28:04 INFO  : 'after 3000' command is executed.
+19:28:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+19:28:06 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit"
+19:28:06 INFO  : Context for 'APU' is selected.
+19:28:06 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa'.
+19:28:06 INFO  : 'configparams force-mem-access 1' command is executed.
+19:28:06 INFO  : Context for 'APU' is selected.
+19:28:06 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl' is done.
+19:28:06 INFO  : 'ps7_init' command is executed.
+19:28:06 INFO  : 'ps7_post_config' command is executed.
+19:28:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:28:06 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:28:06 INFO  : 'configparams force-mem-access 0' command is executed.
+19:28:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:28:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:28:07 INFO  : 'con' command is executed.
+19:28:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:28:07 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app_system/_ide/scripts/systemdebugger_axi-adder-app_system_standalone.tcl'
+19:28:15 INFO  : Disconnected from the channel tcfchan#21.
+19:28:17 INFO  : XRT server has started successfully on port '4352'
+19:28:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:28:17 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+19:28:17 INFO  : 'jtag frequency' command is executed.
+19:28:17 INFO  : Context for 'APU' is selected.
+19:28:17 INFO  : System reset is completed.
+19:28:20 INFO  : 'after 3000' command is executed.
+19:28:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+19:28:21 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit"
+19:28:22 INFO  : Context for 'APU' is selected.
+19:28:22 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa'.
+19:28:22 INFO  : 'configparams force-mem-access 1' command is executed.
+19:28:22 INFO  : Context for 'APU' is selected.
+19:28:22 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl' is done.
+19:28:22 INFO  : 'ps7_init' command is executed.
+19:28:22 INFO  : 'ps7_post_config' command is executed.
+19:28:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:28:22 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:28:22 INFO  : 'configparams force-mem-access 0' command is executed.
+19:28:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:28:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:28:22 INFO  : 'con' command is executed.
+19:28:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:28:22 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app_system/_ide/scripts/systemdebugger_axi-adder-app_system_standalone.tcl'
+19:28:49 INFO  : Checking for BSP changes to sync application flags for project 'axi-adder-app'...
+19:29:04 INFO  : Disconnected from the channel tcfchan#22.
+19:29:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:29:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+19:29:05 INFO  : 'jtag frequency' command is executed.
+19:29:05 INFO  : Context for 'APU' is selected.
+19:29:05 INFO  : System reset is completed.
+19:29:08 INFO  : 'after 3000' command is executed.
+19:29:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+19:29:09 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit"
+19:29:09 INFO  : Context for 'APU' is selected.
+19:29:09 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa'.
+19:29:09 INFO  : 'configparams force-mem-access 1' command is executed.
+19:29:09 INFO  : Context for 'APU' is selected.
+19:29:09 INFO  : Sourcing of '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl' is done.
+19:29:10 INFO  : 'ps7_init' command is executed.
+19:29:10 INFO  : 'ps7_post_config' command is executed.
+19:29:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:29:10 INFO  : The application '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:29:10 INFO  : 'configparams force-mem-access 0' command is executed.
+19:29:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:29:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:29:10 INFO  : 'con' command is executed.
+19:29:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:29:10 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app_system/_ide/scripts/systemdebugger_axi-adder-app_system_standalone.tcl'
+20:04:23 INFO  : Disconnected from the channel tcfchan#23.

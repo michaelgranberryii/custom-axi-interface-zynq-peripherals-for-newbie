@@ -66,16 +66,16 @@ int main()
     *din2 = 9;
 
     if((*cout & 0xDEAD0000) == 0xDEAD0000) {
-    	print("Device ID is successful");
+    	print("Device ID is successful\n\r");
     } else {
-    	print("Device ID is failed");
+    	print("Device ID is failed\n\r");
     }
 
     (*res) = Xil_In32(*res);
-    xil_printf(" res : %d", (*res));
+    xil_printf("res : %d\n\r", (*res));
 
     print("Hello World\n\r");
-    print("Successfully ran Hello World application");
+    print("Successfully ran Hello World application\n\r");
     cleanup_platform();
     return 0;
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="axi_slave_lite_with_io_app" location="/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app" platform="/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/axi_slave_lite_with_io_platform.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" systemProject="axi_slave_lite_with_io_app_system" sysConfig="axi_slave_lite_with_io_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="9788d03c4b50ccf760d7890dd386a6b7">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1687160129">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.59455546" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

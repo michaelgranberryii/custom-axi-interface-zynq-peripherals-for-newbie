@@ -2221,3 +2221,2704 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 
 !ENTRY com.xilinx.sdk.utils 0 0 2025-04-19 22:17:17.080
 !MESSAGE XSCT command with result: [::hsi::utils::closesw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:06.716
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:06.719
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ], Result: [null, {"ps7_cortexa9_0": "",
+"ps7_cortexa9_1": "",
+}]. Thread: main
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-21 19:26:13.980
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-21 19:26:13.981
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-21 19:26:13.982
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.505
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.521
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "667",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "50",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.522
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.538
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"axi_adder_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.539
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.567
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"axi_adder_0_S00_AXI": {"name": "axi_adder_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.569
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.571
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.572
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.573
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.574
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.575
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.576
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.578
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.578
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.579
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.580
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.584
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.586
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.594
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.595
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.614
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"axi_adder_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.615
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.639
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"axi_adder_0_S00_AXI": {"name": "axi_adder_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.641
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.642
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.643
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.645
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.645
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.652
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.653
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.656
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.656
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.659
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.659
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.661
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.667
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa bit], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.671
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa bit], Result: [null, design_1_wrapper.bit]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:14.673
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.220
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.221
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.221
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.222
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.223
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.223
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.224
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.225
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.226
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.226
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.226
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.226
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.227
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.227
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.227
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.227
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:26:15.228
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.229
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#18]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.231
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.406
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351B7A823A]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.407
+!MESSAGE XSCT Command: [version -server], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.413
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.414
+!MESSAGE XSCT Command: [version], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.415
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.420
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.428
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351B7A823A]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.429
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.453
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.455
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.465
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351B7A823A]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.466
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.494
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.495
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.504
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351B7A823A]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.504
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.533
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.545
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.556
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351B7A823A]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.556
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.578
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.579
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.591
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351B7A823A]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.591
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.619
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.620
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.627
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351B7A823A]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.628
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.658
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.658
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.687
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.687
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.689
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.689
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.706
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.706
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.770
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:15.770
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.775
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.829
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.839
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.839
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.875
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.877
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.878
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#18]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.879
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.890
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.891
+!MESSAGE XSCT Command: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.892
+!MESSAGE XSCT command with result: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.893
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.905
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.906
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.948
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.950
+!MESSAGE XSCT Command: [fetch_device_jtag_ctx 2], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.955
+!MESSAGE XSCT command with result: [fetch_device_jtag_ctx 2], Result: [null, jsn-Zybo Z7-210351B7A823A-4ba00477-0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.956
+!MESSAGE XSCT Command: [fetch_device_jtag_ctx 3], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.959
+!MESSAGE XSCT command with result: [fetch_device_jtag_ctx 3], Result: [null, jsn-Zybo Z7-210351B7A823A-13722093-0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:18.966
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:19.037
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:19.038
+!MESSAGE XSCT Command: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.268
+!MESSAGE XSCT command with result: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.307
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.318
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.319
+!MESSAGE XSCT Command: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.390
+!MESSAGE XSCT command with result: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_3]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.390
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.393
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.394
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.408
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.408
+!MESSAGE XSCT Command: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.410
+!MESSAGE XSCT command with result: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.411
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.817
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.817
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.843
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.844
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.857
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:20.857
+!MESSAGE XSCT Command: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:21.134
+!MESSAGE XSCT command with result: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:21.135
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:21.165
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:21.343
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:21.382
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:21.382
+!MESSAGE XSCT Command: [con], Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:26:21.415
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-80: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:26:21.419
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:26:21.420
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.023
+!MESSAGE XSCT Command: [disconnect tcfchan#18], Thread: Thread-637
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.102
+!MESSAGE XSCT command with result: [disconnect tcfchan#18], Result: [null, ]. Thread: Thread-637
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.147
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.157
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#19]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.158
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.178
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.180
+!MESSAGE XSCT Command: [version -server], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.182
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.182
+!MESSAGE XSCT Command: [version], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.183
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.184
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.194
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.195
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.236
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.237
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.247
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.248
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.280
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.281
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.291
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.292
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.322
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.323
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.331
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.332
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.359
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.359
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.371
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.371
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.402
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.402
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.411
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.411
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.440
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.441
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.470
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.471
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.472
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.473
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.493
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.495
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.556
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:11.557
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:14.560
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:14.597
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:14.606
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:14.606
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:14.631
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:14.632
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:14.692
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:14.693
+!MESSAGE XSCT Command: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.907
+!MESSAGE XSCT command with result: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.944
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.960
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.961
+!MESSAGE XSCT Command: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.970
+!MESSAGE XSCT command with result: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_3]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.970
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.972
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.972
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.987
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.988
+!MESSAGE XSCT Command: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.989
+!MESSAGE XSCT command with result: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:15.989
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.347
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.347
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.361
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.362
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.374
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.374
+!MESSAGE XSCT Command: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.546
+!MESSAGE XSCT command with result: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.547
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.575
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.588
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.605
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.606
+!MESSAGE XSCT Command: [con], Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:16.647
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-92: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:27:16.649
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:27:16.649
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:41.697
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss ], Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:41.702
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:41.703
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss], Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:41.710
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:27:41.710
+!MESSAGE Generating MD5 hash for file: /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:41.711
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss], Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:27:41.713
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:27:53.312
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '17'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.461
+!MESSAGE XSCT Command: [disconnect tcfchan#19], Thread: Thread-699
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.466
+!MESSAGE XSCT command with result: [disconnect tcfchan#19], Result: [null, ]. Thread: Thread-699
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.482
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.493
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#21]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.494
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.510
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.510
+!MESSAGE XSCT Command: [version -server], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.512
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.512
+!MESSAGE XSCT Command: [version], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.513
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.514
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.524
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.525
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.567
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.567
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.579
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.580
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.622
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.623
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.630
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.631
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.659
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.659
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.668
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.668
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.701
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.701
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.711
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.711
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.739
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.740
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.748
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.748
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.778
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.778
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.813
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.814
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.815
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.815
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.841
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.842
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.901
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:01.902
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:04.906
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:04.947
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:04.958
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:04.958
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:04.980
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:04.981
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:05.037
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:05.038
+!MESSAGE XSCT Command: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.262
+!MESSAGE XSCT command with result: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.289
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.309
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.310
+!MESSAGE XSCT Command: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.324
+!MESSAGE XSCT command with result: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_3]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.325
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.328
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.329
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.346
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.347
+!MESSAGE XSCT Command: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.348
+!MESSAGE XSCT command with result: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.349
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.717
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.719
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.733
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.733
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.750
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.751
+!MESSAGE XSCT Command: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.934
+!MESSAGE XSCT command with result: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.935
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.965
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.974
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.991
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:06.992
+!MESSAGE XSCT Command: [con], Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:07.031
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-86: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:28:07.032
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:28:07.032
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:15.844
+!MESSAGE XSCT Command: [disconnect tcfchan#21], Thread: Thread-753
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:15.850
+!MESSAGE XSCT command with result: [disconnect tcfchan#21], Result: [null, ]. Thread: Thread-753
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.102
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.104
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.105
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.105
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.106
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.106
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.106
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.107
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.107
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.107
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.107
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.108
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.108
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.108
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.108
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.108
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.109
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.110
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.110
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.110
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.111
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.111
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.111
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.111
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.111
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.111
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.111
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.111
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.111
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.112
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.112
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.112
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.112
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.112
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.112
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-21 19:28:16.112
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.091
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.097
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#22]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.099
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.196
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.197
+!MESSAGE XSCT Command: [version -server], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.207
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.207
+!MESSAGE XSCT Command: [version], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.208
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.208
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.220
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.221
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.258
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.259
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.270
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.271
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.312
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.313
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.326
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.326
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.356
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.357
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.370
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.370
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.397
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.398
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.409
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.409
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.440
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.440
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.450
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.451
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.478
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.478
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.508
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.508
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.510
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.510
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.525
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.526
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.587
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:17.588
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:20.592
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:20.629
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:20.643
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:20.644
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:20.674
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:20.675
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:20.753
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:20.754
+!MESSAGE XSCT Command: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:21.966
+!MESSAGE XSCT command with result: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:21.995
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.009
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.010
+!MESSAGE XSCT Command: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.020
+!MESSAGE XSCT command with result: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_3]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.021
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.027
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.028
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.042
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.043
+!MESSAGE XSCT Command: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.045
+!MESSAGE XSCT command with result: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.045
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.445
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.446
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.471
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.472
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.484
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.484
+!MESSAGE XSCT Command: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.676
+!MESSAGE XSCT command with result: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.677
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.715
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.831
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.855
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.856
+!MESSAGE XSCT Command: [con], Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:22.997
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-81: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:28:22.998
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:28:22.998
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:49.272
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss ], Thread: Worker-98: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:49.285
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-98: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:49.288
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss], Thread: Worker-98: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:49.293
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-98: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:28:49.293
+!MESSAGE Generating MD5 hash for file: /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:49.294
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss], Thread: Worker-98: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:28:49.296
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-98: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.401
+!MESSAGE XSCT Command: [disconnect tcfchan#22], Thread: Thread-815
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.415
+!MESSAGE XSCT command with result: [disconnect tcfchan#22], Result: [null, ]. Thread: Thread-815
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.572
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.580
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#23]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.581
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.604
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.605
+!MESSAGE XSCT Command: [version -server], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.608
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.608
+!MESSAGE XSCT Command: [version], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.609
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.610
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.625
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.626
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.666
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.667
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.680
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.680
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.718
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.719
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.736
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.737
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.785
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.786
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.802
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.802
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.841
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.842
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.855
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.855
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.902
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.903
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.915
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.916
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.958
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:04.958
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:05.006
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:05.008
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:05.009
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:05.010
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:05.052
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:05.053
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:05.123
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:05.126
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:08.160
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:08.212
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:08.222
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:08.222
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:08.248
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:08.249
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:08.314
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:08.316
+!MESSAGE XSCT Command: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.585
+!MESSAGE XSCT command with result: [fpga -file /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.865
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.897
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.898
+!MESSAGE XSCT Command: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.934
+!MESSAGE XSCT command with result: [loadhw -hw /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_3]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.935
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.938
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.938
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.975
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.976
+!MESSAGE XSCT Command: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.980
+!MESSAGE XSCT command with result: [source /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:09.981
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.519
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.519
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.535
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.536
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.551
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.551
+!MESSAGE XSCT Command: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.759
+!MESSAGE XSCT command with result: [dow /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi-adder-app/Debug/axi-adder-app.elf], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.759
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.816
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.837
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.869
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.869
+!MESSAGE XSCT Command: [con], Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 19:29:10.919
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-99: Launching SystemDebugger_axi-adder-app_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:29:10.920
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '5'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-21 19:29:10.920
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '5'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 20:04:23.334
+!MESSAGE XSCT Command: [disconnect tcfchan#23], Thread: Thread-865
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-21 20:04:23.344
+!MESSAGE XSCT command with result: [disconnect tcfchan#23], Result: [null, ]. Thread: Thread-865

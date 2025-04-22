@@ -1,9 +1,51 @@
 Nothing to build in platform 'axi_adder_platform'
 
-22:17:17 **** Incremental Build of configuration Debug for project axi-adder-app ****
+19:28:49 **** Incremental Build of configuration Debug for project axi-adder-app ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
  
 make --no-print-directory main-build
-make[1]: Nothing to be done for 'main-build'.
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/bspinclude/include/xil_types.h:48,
+                 from /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/bspinclude/include/xil_printf.h:15,
+                 from ../src/helloworld.c:50:
+/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/bspinclude/include/xparameters.h:39:43: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   39 | #define XPAR_AXI_ADDER_0_S00_AXI_BASEADDR 0x43C00000
+      |                                           ^~~~~~~~~~
+../src/helloworld.c:56:13: note: in expansion of macro 'XPAR_AXI_ADDER_0_S00_AXI_BASEADDR'
+   56 | int *din1 = XPAR_AXI_ADDER_0_S00_AXI_BASEADDR + AXI_ADDER_S00_AXI_SLV_REG0_OFFSET;
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/bspinclude/include/xparameters.h:39:43: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   39 | #define XPAR_AXI_ADDER_0_S00_AXI_BASEADDR 0x43C00000
+      |                                           ^~~~~~~~~~
+../src/helloworld.c:57:13: note: in expansion of macro 'XPAR_AXI_ADDER_0_S00_AXI_BASEADDR'
+   57 | int *din2 = XPAR_AXI_ADDER_0_S00_AXI_BASEADDR + AXI_ADDER_S00_AXI_SLV_REG1_OFFSET;
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/bspinclude/include/xparameters.h:39:43: warning: initialization of 'u32 *' {aka 'long unsigned int *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   39 | #define XPAR_AXI_ADDER_0_S00_AXI_BASEADDR 0x43C00000
+      |                                           ^~~~~~~~~~
+../src/helloworld.c:58:12: note: in expansion of macro 'XPAR_AXI_ADDER_0_S00_AXI_BASEADDR'
+   58 | u32 *res = XPAR_AXI_ADDER_0_S00_AXI_BASEADDR + AXI_ADDER_S00_AXI_SLV_REG2_OFFSET;
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/bspinclude/include/xparameters.h:39:43: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   39 | #define XPAR_AXI_ADDER_0_S00_AXI_BASEADDR 0x43C00000
+      |                                           ^~~~~~~~~~
+../src/helloworld.c:59:13: note: in expansion of macro 'XPAR_AXI_ADDER_0_S00_AXI_BASEADDR'
+   59 | int *cout = XPAR_AXI_ADDER_0_S00_AXI_BASEADDR + AXI_ADDER_S00_AXI_SLV_REG3_OFFSET;
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: axi-adder-app.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/000-axi-slave-lite-without-io/software/axi_adder_platform/export/axi_adder_platform/sw/axi_adder_platform/standalone_domain/bsplib/lib -o "axi-adder-app.elf" ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: axi-adder-app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size axi-adder-app.elf  |tee "axi-adder-app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22397	   1160	  22568	  46125	   b42d	axi-adder-app.elf
+Finished building: axi-adder-app.elf.size
+ 
