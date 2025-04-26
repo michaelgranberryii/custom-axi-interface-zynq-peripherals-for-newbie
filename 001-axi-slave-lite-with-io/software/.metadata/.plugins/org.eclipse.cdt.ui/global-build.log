@@ -1,33 +1,13 @@
 Nothing to build in platform 'axi_slave_lite_with_io_platform'
 
-21:23:59 **** Incremental Build of configuration Debug for project axi_slave_lite_with_io_app ****
+21:22:07 **** Incremental Build of configuration Debug for project axi_slave_lite_with_io_app ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
  
 make --no-print-directory main-build
-Building file: ../src/helloworld.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/sw/axi_slave_lite_with_io_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building file: ../src/platform.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/sw/axi_slave_lite_with_io_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-Finished building: ../src/platform.c
- 
-Building target: axi_slave_lite_with_io_app.elf
-Invoking: ARM v7 gcc linker
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/sw/axi_slave_lite_with_io_platform/standalone_domain/bsplib/lib -o "axi_slave_lite_with_io_app.elf" ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: axi_slave_lite_with_io_app.elf
- 
-Invoking: ARM v7 Print Size
-arm-none-eabi-size axi_slave_lite_with_io_app.elf  |tee "axi_slave_lite_with_io_app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  22293	   1144	  22584	  46021	   b3c5	axi_slave_lite_with_io_app.elf
-Finished building: axi_slave_lite_with_io_app.elf.size
- 
-21:24:06 **** Incremental Build of configuration Debug for project axi_slave_lite_with_io_app_system ****
+make[1]: Nothing to be done for 'main-build'.
+21:22:08 **** Incremental Build of configuration Debug for project axi_slave_lite_with_io_app_system ****
 make all 
 Generating bif file for the system project
 Executing command '::scw::generate_bif -xpfm /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_platform/export/axi_slave_lite_with_io_platform/axi_slave_lite_with_io_platform.xpfm -domains standalone_domain -bifpath /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/software/axi_slave_lite_with_io_app_system/Debug/system.bif' on XSCT

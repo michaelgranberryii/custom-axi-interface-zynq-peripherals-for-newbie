@@ -48,8 +48,8 @@ vlog -work processing_system7_vip_v1_0_16  -sv2k12 "+incdir+../../../../axi-slav
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../axi-slave-lite-with-io.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../axi-slave-lite-with-io.gen/sources_1/bd/design_1/ipshared/aed8/hdl" "+incdir+/home/mg/Xilinx/Vivado/2023.1/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_14 -l processing_system7_vip_v1_0_16 -l xil_defaultlib -l lib_cdc_v1_0_2 -l proc_sys_reset_v5_0_13 -l generic_baseblocks_v2_1_0 -l fifo_generator_v13_2_8 -l axi_data_fifo_v2_1_27 -l axi_register_slice_v2_1_28 -l axi_protocol_converter_v2_1_28 \
 "../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
-"../../../bd/design_1/ipshared/502a/hdl/axi_slave_led_switch_v1_0_S00_AXI.v" \
-"../../../bd/design_1/ipshared/502a/hdl/axi_slave_led_switch_v1_0.v" \
+"../../../bd/design_1/ipshared/0048/hdl/axi_slave_led_switch_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/0048/hdl/axi_slave_led_switch_v1_0.v" \
 "../../../bd/design_1/ip/design_1_axi_slave_led_switch_0_0/sim/design_1_axi_slave_led_switch_0_0.v" \
 
 vcom -work lib_cdc_v1_0_2 -93  \

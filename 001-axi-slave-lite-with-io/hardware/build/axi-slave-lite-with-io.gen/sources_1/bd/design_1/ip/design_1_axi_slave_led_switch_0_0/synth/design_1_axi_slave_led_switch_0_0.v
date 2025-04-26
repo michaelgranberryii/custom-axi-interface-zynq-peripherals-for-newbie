@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:axi_slave_led_switch:1.0
-// IP Revision: 3
+// IP Revision: 8
 
 (* X_CORE_INFO = "axi_slave_led_switch_v1_0,Vivado 2023.1" *)
 (* CHECK_LICENSE_TYPE = "design_1_axi_slave_led_switch_0_0,axi_slave_led_switch_v1_0,{}" *)

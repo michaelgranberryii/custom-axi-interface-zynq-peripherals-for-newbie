@@ -58,8 +58,8 @@ vlog -work processing_system7_vip_v1_0_16 -64 -incr -mfcu  -sv -L axi_vip_v1_1_1
 
 vlog -work xil_defaultlib -64 -incr -mfcu  "+incdir+../../../../axi-slave-lite-with-io.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../axi-slave-lite-with-io.gen/sources_1/bd/design_1/ipshared/aed8/hdl" "+incdir+/home/mg/Xilinx/Vivado/2023.1/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
-"../../../bd/design_1/ipshared/502a/hdl/axi_slave_led_switch_v1_0_S00_AXI.v" \
-"../../../bd/design_1/ipshared/502a/hdl/axi_slave_led_switch_v1_0.v" \
+"../../../bd/design_1/ipshared/0048/hdl/axi_slave_led_switch_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/0048/hdl/axi_slave_led_switch_v1_0.v" \
 "../../../bd/design_1/ip/design_1_axi_slave_led_switch_0_0/sim/design_1_axi_slave_led_switch_0_0.v" \
 
 vcom -work lib_cdc_v1_0_2 -64 -93  \

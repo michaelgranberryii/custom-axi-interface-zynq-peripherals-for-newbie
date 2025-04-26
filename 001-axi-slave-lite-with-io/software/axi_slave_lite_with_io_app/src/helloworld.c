@@ -59,15 +59,15 @@ int main()
 {
     init_platform();
 
+    print("Hello World\n\r");
+
     while(1) {
     	switch_value = Xil_In32(XPAR_AXI_SLAVE_LED_SWITCH_0_S00_AXI_BASEADDR + AXI_SLAVE_LED_SWITCH_S00_AXI_SLV_REG0_OFFSET);
     	xil_printf("switch_value : %x\n\r", switch_value);
     	Xil_Out32(XPAR_AXI_SLAVE_LED_SWITCH_0_S00_AXI_BASEADDR + AXI_SLAVE_LED_SWITCH_S00_AXI_SLV_REG1_OFFSET, switch_value);
-
-    	sleep(1);
+//    	sleep(1);
     }
 
-    print("Hello World\n\r");
     print("Successfully ran Hello World application");
     cleanup_platform();
     return 0;

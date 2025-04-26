@@ -3,12 +3,12 @@
 # SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Mon Apr 21 21:16:53 2025
-# Process ID: 189494
+# Start of session at: Fri Apr 25 21:16:35 2025
+# Process ID: 280751
 # Current directory: /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/axi-slave-lite-with-io.runs/synth_1
 # Command line: vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/axi-slave-lite-with-io.runs/synth_1/design_1_wrapper.vds
 # Journal file: /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/axi-slave-lite-with-io.runs/synth_1/vivado.jou
-# Running On: mg, OS: Linux, CPU Frequency: 4199.933 MHz, CPU Physical cores: 4, Host memory: 33261 MB
+# Running On: mg, OS: Linux, CPU Frequency: 3451.468 MHz, CPU Physical cores: 4, Host memory: 33261 MB
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace

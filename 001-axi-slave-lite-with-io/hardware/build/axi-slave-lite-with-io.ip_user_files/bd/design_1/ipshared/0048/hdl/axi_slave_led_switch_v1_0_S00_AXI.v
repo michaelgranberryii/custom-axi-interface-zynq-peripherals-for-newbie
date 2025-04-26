@@ -83,6 +83,8 @@
 		input wire  S_AXI_RREADY
 	);
 
+    reg [31:0] sw_reg;
+    
 	// AXI4LITE signals
 	reg [C_S_AXI_ADDR_WIDTH-1 : 0] 	axi_awaddr;
 	reg  	axi_awready;
@@ -217,9 +219,6 @@
 	// Slave register write enable is asserted when valid address and data are available
 	// and the slave is ready to accept the write address and write data.
 	assign slv_reg_wren = axi_wready && S_AXI_WVALID && axi_awready && S_AXI_AWVALID;
-
-
-    reg [3:0] sw_reg;
     
 	always @( posedge S_AXI_ACLK )
 	begin
@@ -231,7 +230,6 @@
 	      slv_reg3 <= 0;
 	    end 
 	  else begin
-	    sw_reg <= switch;
 	    if (slv_reg_wren)
 	      begin
 	        case ( axi_awaddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] )
@@ -264,7 +262,7 @@
 	                slv_reg3[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8];
 	              end  
 	          default : begin
-	                      slv_reg0 <= {27'h0000_000, sw_reg[3:0]};
+	                      slv_reg0 <= slv_reg0;
 	                      slv_reg1 <= slv_reg1;
 	                      slv_reg2 <= slv_reg2;
 	                      slv_reg3 <= slv_reg3;
@@ -376,7 +374,7 @@
 	begin
 	      // Address decoding for reading registers
 	      case ( axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] )
-	        2'h0   : reg_data_out <= slv_reg0;
+	        2'h0   : reg_data_out <= sw_reg;
 	        2'h1   : reg_data_out <= slv_reg1;
 	        2'h2   : reg_data_out <= slv_reg2;
 	        2'h3   : reg_data_out <= slv_reg3;
@@ -410,11 +408,11 @@
 	    sw_reg <= 0;
 	  end 
 	  else begin
-	    sw_reg <= switch;
+	    sw_reg <= {27'h0000000 ,switch[3:0]};
 	  end
 	end
 	
-	assign led = slv_reg1[3:0];
+	assign led[3:0] = slv_reg1[3:0];
 	// User logic ends
 
 	endmodule

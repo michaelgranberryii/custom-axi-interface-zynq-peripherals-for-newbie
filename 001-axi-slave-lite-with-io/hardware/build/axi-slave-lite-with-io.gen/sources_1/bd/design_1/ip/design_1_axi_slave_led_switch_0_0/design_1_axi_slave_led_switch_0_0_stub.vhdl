@@ -2,7 +2,7 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (lin64) Build 3865809 Sun May  7 15:04:56 MDT 2023
--- Date        : Mon Apr 21 21:16:31 2025
+-- Date        : Fri Apr 25 21:15:18 2025
 -- Host        : mg running 64-bit Ubuntu 24.04.2 LTS
 -- Command     : write_vhdl -force -mode synth_stub
 --               /home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/axi-slave-lite-with-io.gen/sources_1/bd/design_1/ip/design_1_axi_slave_led_switch_0_0/design_1_axi_slave_led_switch_0_0_stub.vhdl

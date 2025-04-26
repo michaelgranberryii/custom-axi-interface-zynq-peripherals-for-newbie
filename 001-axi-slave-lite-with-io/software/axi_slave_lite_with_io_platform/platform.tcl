@@ -19,3 +19,7 @@ platform generate
 platform config -updatehw {/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/design_1_wrapper.xsa}
 platform config -updatehw {/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/design_1_wrapper.xsa}
 platform config -updatehw {/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/design_1_wrapper.xsa}
+platform config -updatehw {/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/design_1_wrapper.xsa}
+platform config -updatehw {/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/design_1_wrapper.xsa}
+platform config -updatehw {/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/design_1_wrapper.xsa}
+platform config -updatehw {/home/mg/Documents/my-projects/custom-axi-interface-zynq-peripherals-for-newbie/001-axi-slave-lite-with-io/hardware/build/design_1_wrapper.xsa}
